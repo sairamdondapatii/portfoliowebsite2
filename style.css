@@ -3,6 +3,7 @@ body{
     margin: 0; 
     max-height: 100vh;
     font-family: 'Exo', sans-serif;
+    padding: 10px;
 }
 .darkmode{
     background-color: #121212ed;
