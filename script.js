@@ -1,26 +1,30 @@
 let mode=document.getElementById('mode')
-
-
-
 mode.addEventListener('click',change)
-
 function change(){
+    
     let nav=document.getElementById('nav')
     let links=nav.getElementsByClassName('links')
-    document.body.classList.toggle("darkmode")
-    let social=document.getElementById('social')
-    let icons=social.getElementsByClassName('social')
+    
     if(mode.innerText=='dark_mode'){
+        let body=document.getElementById('body')
+        body.style.backgroundColor='black'
+        body.style.color='white'
         mode.innerText='light_mode'
         mode.style.color='white'
         for(let i=0; i<links.length; i++){
             links[i].style.color='white'
         }
+        
+        let social=document.getElementById('social')
+        let icons=social.getElementsByClassName('social')
+        
         for(let i=0; i<icons.length; i++){
             icons[i].style.color='grey'
         }
     }
-    else{
+    else if(mode.innerText='light_mode'){
+        body.style.backgroundColor='white'
+        body.style.color='black'
         mode.innerText='dark_mode'
         mode.style.color='black'
         for(let i=0; i<links.length; i++){

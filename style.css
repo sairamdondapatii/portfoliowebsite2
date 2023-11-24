@@ -5,10 +5,7 @@ body{
     font-family: 'Exo', sans-serif;
     padding: 10px;
 }
-.darkmode{
-    background-color: #121212ed;
-    color: white;
-}
+
 h2{
     margin: 0;
     font-size: 30px;
@@ -70,7 +67,7 @@ h2{
 }
 .copyright{
     text-align: center;
-    margin-top: 30px;
+    
     color: grey;
 }
 .copyright>small>a{
@@ -85,6 +82,7 @@ details{
 .social_icons{
     text-align: center;
 }
+
 
 @media (max-width:720px){
     .header{
