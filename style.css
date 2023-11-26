@@ -97,7 +97,9 @@ details>p{
 .contact,.contact>p{
     text-align: center;
 }
-
+.contactBody>.copyright{
+    margin-top: 30px;
+}
 
 @media (max-width:720px){
     .header{
