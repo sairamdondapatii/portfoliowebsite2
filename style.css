@@ -33,7 +33,7 @@ h2{
     font-size: 13px;
 }
 
-.main,.about{
+.main{
     text-align: center;
     max-width: 800px;
     margin: auto auto;
@@ -73,13 +73,28 @@ h2{
 .copyright>small>a{
     color: gray;
 }
-.about{
-    margin-top: 30px;
+.about,.contact{
+    margin-top: 70px;
+    padding: 10px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about>p{
+    text-align: left;
+    line-height: 30px;
 }
 details{
-    margin: 30px;
+    margin-top: 30px;
+}
+details>p{
+    border: 1px solid grey;
+    padding: 5px;
 }
 .social_icons{
+    text-align: center;
+}
+.contact,.contact>p{
     text-align: center;
 }
 
@@ -102,5 +117,8 @@ details{
     .nav>ul>li>a{
         padding: 10px;
         
+    }
+    .profile_image>img{
+        margin-top: 40px;
     }
 }
