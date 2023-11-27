@@ -4,6 +4,7 @@ body{
     max-height: 100vh;
     font-family: 'Exo', sans-serif;
     padding: 10px;
+    
 }
 
 h2{
@@ -45,7 +46,7 @@ h2{
 }
 .content>p,p{
     font-size: 20px;
-    
+    line-height: 20px;
     
 }
 .profile_image>img{
@@ -82,7 +83,7 @@ h2{
 }
 .about>p{
     text-align: left;
-    line-height: 30px;
+    line-height: 20px;
 }
 details{
     margin-top: 30px;
@@ -104,44 +105,23 @@ details>p{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-}
-.bn31 {
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 20px;
-    margin-top: 10px;
-    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
-    border-radius: 40px;
-    box-sizing: border-box;
-    color: #00a84f;
-    display: block;
-    height: 50px;
-    font-size: 1.4em;
-    padding: 4px;
-    position: relative;
+    margin-top: 20px;
+    
+}
+.btn1{
     text-decoration: none;
-    width: 7em;
-    z-index: 2;
-  }
-  
-  .bn31:hover {
-    color: #fff;
-  }
-  
-  .bn31 .bn31span {
-    align-items: center;
-    background: white;
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    transition: background 0.5s ease;
-    width: 100%;
-  }
-  
-  .bn31:hover .bn31span {
-    background: transparent;
-  }
+    border: 1px solid grey;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to right, rgb(15, 226, 15), rgb(2, 172, 2));
+    border-radius: 20px;
+    letter-spacing: 3px;
+    transition: .3s all ease-out;
+}
+.btn1:hover{
+    
+}
 
 @media (max-width:720px){
     .header{
