@@ -109,18 +109,23 @@ details>p{
     margin-top: 20px;
     
 }
-.btn1{
+.btn1>button{
+    outline: none;
+    border: none;
     text-decoration: none;
-    border: 1px solid grey;
     padding: 10px;
-    color: white;
-    background: linear-gradient(to right, rgb(15, 226, 15), rgb(2, 172, 2));
+    color: grey;
+    border: 1px solid dodgerblue;
     border-radius: 20px;
-    letter-spacing: 3px;
-    transition: .3s all ease-out;
-}
-.btn1:hover{
+    letter-spacing: 1px;
+    width: 150px;
+    cursor: pointer;
     
+}
+.btn1>button:hover{
+    color: black;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(52, 123, 209),blue);
 }
 
 @media (max-width:720px){
@@ -144,5 +149,8 @@ details>p{
     }
     .profile_image>img{
         margin-top: 40px;
+    }
+    .btn1>button{
+        max-width: 150px;
     }
 }
