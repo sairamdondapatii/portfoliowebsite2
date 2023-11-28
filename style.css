@@ -116,6 +116,7 @@ details>p{
     padding: 10px;
     color: grey;
     border: 1px solid dodgerblue;
+    background: linear-gradient(to right, rgb(52, 123, 209),blue);
     border-radius: 20px;
     letter-spacing: 1px;
     width: 150px;
